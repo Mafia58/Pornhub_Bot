@@ -1,0 +1,22 @@
+{
+    "name": "Pornhub Bot",
+    "description": "Telegram bot to search and download pornhub videos(18+)",
+    "keywords": ["pornhub", "python", "telegram"],
+    "env": {
+        "API_ID": {
+            "description": "You api id,get it from my.telegram.org",
+            "value": "", 
+            "required": true
+        },
+        "API_HASH": {
+            "description": "You api hash,get it from my.telegram.org",
+            "value": "", 
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "You Bot Token from @BotFather.",
+            "value": "", 
+            "required": true
+        }
+    }
+}
