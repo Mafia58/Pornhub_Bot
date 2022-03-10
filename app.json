@@ -22,11 +22,6 @@
         "description": "You Bot Token from @BotFather.",
         "value": "",
         "required": true
-      },
-      "SUDO_ID": {
-        "description": "ID of SUDO users.",
-        "value": "",
-        "required": true
       }
     },
     "buildpacks": [
