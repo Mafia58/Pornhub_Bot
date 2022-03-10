@@ -11,9 +11,10 @@ This is a Pornhub bot made for telegram. It can search and download Pornhub vide
 
 
 ## Necessary Variables
-`API_ID` : You api id, from my.telegram.org or @ScrapperRoBot.  
-`API_HASH` : You api hash, from my.telegram.org or @ScrapperRoBot.  
-`BOT_TOKEN` : You Bot Token from @BotFather.
+`API_ID` : Get Your api id, from my.telegram.org or @ScrapperRoBot.  
+`API_HASH` : Get Your api hash, from my.telegram.org or @ScrapperRoBot.  
+`BOT_TOKEN` : Get Your Bot Token from @BotFather.
+`SUDO_ID` : Id of Bot Owner.
 
 
 ## Heroku
