@@ -1,6 +1,6 @@
 {
-    "name": "Pornhub Bot",
-    "description": "Telegram bot to search and download pornhub videos",
+    "name": "Bot",
+    "description": "Telegram bot to search and download ph videos",
     "keywords": [
     "python",
     "telegram",
