@@ -1,23 +1,28 @@
 {
-    "name": "Pornhub Bot",
-    "description": "Telegram bot to search and download pornhub videos",
-    "keywords": ["pornhub", "python", "telegram"],
+    "name": "Bot",
+    "description": "Telegram Bot",
+    "keywords": [
+    "bot",
+    "Python"
+    ],
+    "stack": "container",
     "env": {
+        "BOT_TOKEN": {
+            "description": "Get bot token from @botfather.",
+            "required": true
+        },
         "API_ID": {
-            "description": "You api id, from my.telegram.org",
-            "value": "", 
+            "description": "Get you api id from my.telegram.org.",
             "required": true
         },
         "API_HASH": {
-            "description": "You api hash, from my.telegram.org",
-            "value": "", 
+            "description": "Get you api hash from my.telegram.org.",
             "required": true
         },
-        "BOT_TOKEN": {
-            "description": "You Bot Token from @BotFather.",
-            "value": "", 
-            "required": true
-        }
+        "SQL_DB": {
+            "description": "URI of SQL DB, If host on heroku no need to fill.",
+            "required": false
+        },
         "SUDO_ID ":{
             "description": "ID of SUDO users.",
             "required": true
