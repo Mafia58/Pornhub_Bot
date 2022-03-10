@@ -4,8 +4,11 @@
     "keywords": [
     "python",
     "telegram",
-    "bot",
+    "bot"
     ],
+    "website": "https://t.me/DFX",
+    "repository": "https://github.com/Mafia58/Pornhub_Bot",
+    "success_url": "https://t.me/DXF",
     "stack": "container",
     "env": {
       "API_ID": {
