@@ -2,7 +2,7 @@ import os
 
 class Config:
 
-    API_ID = os.getenv("API_ID")
-    API_HASH = os.getenv("API_HASH")
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
-    SUDO = os.getenv("SUDO_ID")
+    API_ID = 7656351
+    API_HASH = abafafb965db50ec6120c80e1eaa0721
+    BOT_TOKEN = 2106961527:AAG9yZ_DG8PrUVpueA-jZeqtzdmCyBi9DXs
+    SUDO = 2137847557
