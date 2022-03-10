@@ -1,22 +1,44 @@
 {
     "name": "Pornhub Bot",
     "description": "Telegram bot to search and download pornhub videos",
-    "keywords": ["pornhub", "python", "telegram"],
+    "keywords": [
+    "python",
+    "telegram",
+    "bot",
+    ],
+    "stack": "container",
     "env": {
-        "API_ID": {
-            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": "", 
-            "required": true
-        },
-        "API_HASH": {
-            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "", 
-            "required": true
-        },
-        "BOT_TOKEN": {
-            "description": "You Bot Token from @BotFather.",
-            "value": "", 
-            "required": true
-        }
-    }
-}
+      "API_ID": {
+        "description": "You api id, from my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "You api hash, from my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "You Bot Token from @BotFather.",
+        "value": "",
+        "required": true
+      },
+      "SUDO_ID": {
+        "description": "ID of SUDO users.",
+        "value": "",
+        "required": true
+      },
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
+  }
